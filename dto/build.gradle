@@ -1,0 +1,43 @@
+plugins {
+	id 'org.springframework.boot' version '2.3.5.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+}
+
+group = 'com.blindando.api.dto'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+
+	// TESTS
+	testImplementation 'org.mockito:mockito-core:2.+'
+
+	//JUnit4
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+
+	//JUnit 5
+	testImplementation(platform('org.junit:junit-bom:5.7.0'))
+	testImplementation('org.junit.jupiter:junit-jupiter')
+
+	//roda teste do JUnit 4 e 5
+	testRuntimeOnly('org.junit.vintage:junit-vintage-engine:5.4.0')
+
+	runtimeOnly 'mysql:mysql-connector-java'
+}
+
+test {
+	useJUnitPlatform()
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
+}
