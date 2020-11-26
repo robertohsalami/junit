@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.exacta.CalculadoraTestJUnit5" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:01:03" hostname="rsalami-Inspiron-3576" time="0.108">
+  <properties/>
+  <testcase name="addTestSuccess()" classname="com.exacta.CalculadoraTestJUnit5" time="0.036"/>
+  <testcase name="addTestSuccess1(int, int, int)[1]" classname="com.exacta.CalculadoraTestJUnit5" time="0.022"/>
+  <testcase name="addTestSuccess1(int, int, int)[2]" classname="com.exacta.CalculadoraTestJUnit5" time="0.002"/>
+  <testcase name="addTestSuccess1(int, int, int)[3]" classname="com.exacta.CalculadoraTestJUnit5" time="0.002"/>
+  <testcase name="addTestSuccess1(int, int, int)[4]" classname="com.exacta.CalculadoraTestJUnit5" time="0.002"/>
+  <system-out><![CDATA[Antes de cada teste
+Antes de cada teste
+Antes de cada teste
+Antes de cada teste
+Antes de cada teste
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

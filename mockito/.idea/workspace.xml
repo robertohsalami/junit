@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7727790-dbdb-4ca3-be5e-1a51efb8adc7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kjby7Ce6kjge3elp4mcs5jtzy9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mockito.business" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.UserPasswordServiceTest.shouldSaveNewPasswordAndSendEmailToUser">
+    <configuration name="AddressSearchTest6.shouldFindAddressByZipCode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.mockito.business.AddressSearchTest6.shouldFindAddressByZipCode&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddressSearchTest7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.mockito.business.AddressSearchTest7&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddressSearchTest7.shouldFindAddressByZipCode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.mockito.business.AddressSearchTest7.shouldFindAddressByZipCode&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddressSearchTest8.findByTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.mockito.business.AddressSearchTest8.findByTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserPasswordServiceTest.shouldSaveNewPasswordAndSendEmailToUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.mockito.business.UserPasswordServiceTest.shouldSaveNewPasswordAndSendEmailToUser&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.UserPasswordServiceTest.shouldSaveNewPasswordAndSendEmailToUser" />
+        <item itemvalue="Gradle.AddressSearchTest8.findByTest" />
+        <item itemvalue="Gradle.AddressSearchTest7.shouldFindAddressByZipCode" />
+        <item itemvalue="Gradle.AddressSearchTest7" />
+        <item itemvalue="Gradle.AddressSearchTest6.shouldFindAddressByZipCode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7727790-dbdb-4ca3-be5e-1a51efb8adc7" name="Default Changelist" comment="" />
+      <created>1606217198659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606217198659</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2134" y="226" width="374" height="621" key="#com.intellij.ide.util.MemberChooser" timestamp="1606243534046">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2134" y="226" width="374" height="621" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606243534046" />
+    <state x="2059" y="318" width="524" height="437" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606220218306">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2059" y="318" width="524" height="437" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606220218306" />
+    <state width="434" height="438" key="DebuggerActiveHint" timestamp="1606398669885">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="434" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1606398669885" />
+    <state width="1324" height="123" key="GridCell.Tab.0.bottom" timestamp="1606400186815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606252704143" />
+    <state width="1324" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606400186815" />
+    <state width="1324" height="123" key="GridCell.Tab.0.center" timestamp="1606400186815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606252704143" />
+    <state width="1324" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606400186815" />
+    <state width="1324" height="123" key="GridCell.Tab.0.left" timestamp="1606400186814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606252704143" />
+    <state width="1324" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606400186814" />
+    <state width="1324" height="123" key="GridCell.Tab.0.right" timestamp="1606400186815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606252704143" />
+    <state width="1324" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606400186815" />
+    <state width="1324" height="123" key="GridCell.Tab.1.bottom" timestamp="1606400186816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="123" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606400186816" />
+    <state width="1324" height="123" key="GridCell.Tab.1.center" timestamp="1606400186816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="123" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606400186816" />
+    <state width="1324" height="123" key="GridCell.Tab.1.left" timestamp="1606400186815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="123" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606400186815" />
+    <state width="1324" height="123" key="GridCell.Tab.1.right" timestamp="1606400186816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="123" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606400186816" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mockito/business/AddressSearchTest4.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mockito/business/AddressSearch.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mockito/business/AddressSearchTest6.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mockito/business/AddressSearchTest7.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mockito/business/AddressSearch.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mockito/business/AddressSearchTest8.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mockito/business/UserPasswordServiceTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
