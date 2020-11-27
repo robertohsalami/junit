@@ -12,7 +12,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
-@RunWith()
+@RunWith(MockitoJUnitRunner.class)
 public class UserPasswordServiceTest {
 
     @Mock

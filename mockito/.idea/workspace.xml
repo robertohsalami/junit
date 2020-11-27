@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7727790-dbdb-4ca3-be5e-1a51efb8adc7" name="Default Changelist" comment="" />
+    <list default="true" id="a7727790-dbdb-4ca3-be5e-1a51efb8adc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mockito/business/model/MeuDicionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mockito/business/model/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mockito/business/model/MeuDicionarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mockito/business/model/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mockito/business/UserPasswordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mockito/business/UserPasswordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mockito.business.UserPasswordServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mockito.business.UserPasswordServiceTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mockito.business.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mockito.business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mockito.business.UserPasswordServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.mockito.business.UserPasswordServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockito/business/UserPasswordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mockito/business/UserPasswordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockito/business/UserPasswordServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mockito/business/UserPasswordServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +60,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1kjby7Ce6kjge3elp4mcs5jtzy9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,33 +72,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/mockito/business" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mockito.business" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserPasswordServiceTest.shouldSaveNewPasswordAndSendEmailToUser">
-    <configuration name="AddressSearchTest6.shouldFindAddressByZipCode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.mockito.business.AddressSearchTest6.shouldFindAddressByZipCode&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Tests in 'mockito.test'">
     <configuration name="AddressSearchTest7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,6 +140,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'mockito.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="UserPasswordServiceTest.shouldSaveNewPasswordAndSendEmailToUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'mockito.test'" />
         <item itemvalue="Gradle.UserPasswordServiceTest.shouldSaveNewPasswordAndSendEmailToUser" />
         <item itemvalue="Gradle.AddressSearchTest8.findByTest" />
         <item itemvalue="Gradle.AddressSearchTest7.shouldFindAddressByZipCode" />
         <item itemvalue="Gradle.AddressSearchTest7" />
-        <item itemvalue="Gradle.AddressSearchTest6.shouldFindAddressByZipCode" />
       </list>
     </recent_temporary>
   </component>
@@ -186,25 +216,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="434" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1606398669885" />
-    <state width="1324" height="123" key="GridCell.Tab.0.bottom" timestamp="1606400186815">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1878" height="452" key="GridCell.Tab.0.bottom" timestamp="1606487583442">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606252704143" />
+    <state width="1878" height="452" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606487583442" />
     <state width="1324" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606400186815" />
-    <state width="1324" height="123" key="GridCell.Tab.0.center" timestamp="1606400186815">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1878" height="452" key="GridCell.Tab.0.center" timestamp="1606487583442">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606252704143" />
+    <state width="1878" height="452" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606487583442" />
     <state width="1324" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606400186815" />
-    <state width="1324" height="123" key="GridCell.Tab.0.left" timestamp="1606400186814">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1878" height="452" key="GridCell.Tab.0.left" timestamp="1606487583442">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606252704143" />
+    <state width="1878" height="452" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606487583442" />
     <state width="1324" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606400186814" />
-    <state width="1324" height="123" key="GridCell.Tab.0.right" timestamp="1606400186815">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1878" height="452" key="GridCell.Tab.0.right" timestamp="1606487583442">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606252704143" />
+    <state width="1878" height="452" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606487583442" />
     <state width="1324" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606400186815" />
     <state width="1324" height="123" key="GridCell.Tab.1.bottom" timestamp="1606400186816">
       <screen x="0" y="0" width="1366" height="728" />

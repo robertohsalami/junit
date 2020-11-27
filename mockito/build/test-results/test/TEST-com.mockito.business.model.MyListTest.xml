@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mockito.business.model.MyListTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-27T14:33:04" hostname="rsalami-Inspiron-3576" time="0.12">
+  <properties/>
+  <testcase name="addMockVoid" classname="com.mockito.business.model.MyListTest" time="0.119"/>
+  <testcase name="givenNull_AddThrows" classname="com.mockito.business.model.MyListTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

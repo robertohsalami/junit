@@ -28,13 +28,14 @@ public class UserPasswordService {
     public void changePassword(User user, String newPassword){
         user.setPassWord(newPassword);
 
+        userDAO.save(user);
+
         Email email = new Email();
         email.setReceiverAddress(user.getEmail());
         email.setSubject("Alteração de senha");
         email.setBody("Sua senha foi alterada com sucesso");
 
         emailSender.send(email);
-        userDAO.save(user);
 
     }
 }
