@@ -10,4 +10,7 @@ public interface UsuarioService {
 
     Usuario save(Usuario usuario);
 
+    void deleteUsuario(long id);
+
+    Usuario updateUsuario(Usuario usuario, long id);
 }

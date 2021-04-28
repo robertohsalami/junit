@@ -5,6 +5,9 @@ import com.example.migration.dto.UsuarioResponse;
 import com.example.migration.entity.Usuario;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 public class UsuarioMapper {
 
@@ -25,4 +28,16 @@ public class UsuarioMapper {
                 .build();
     }
 
+    public List<UsuarioResponse> usuarioToUsuarioResponse(List<Usuario> usuarios) {
+        List<UsuarioResponse> usuarioResponses = new ArrayList<>();
+        usuarios.forEach(usuario -> {
+            usuarioResponses.add(UsuarioResponse.builder()
+                    .id(usuario.getId())
+                    .nome(usuario.getNome())
+                    .idade(usuario.getIdade())
+                    .cpf(usuario.getCpf())
+                    .build());
+        });
+        return usuarioResponses;
+    }
 }

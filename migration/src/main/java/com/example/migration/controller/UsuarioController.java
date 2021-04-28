@@ -5,7 +5,6 @@ import com.example.migration.dto.UsuarioResponse;
 import com.example.migration.entity.Usuario;
 import com.example.migration.mapper.UsuarioMapper;
 import com.example.migration.service.UsuarioService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -24,8 +23,8 @@ public class UsuarioController {
 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
-    public List<Usuario> listAll(){
-        return usuarioService.findAll();
+    public List<UsuarioResponse> listAll(){
+        return mapper.usuarioToUsuarioResponse(usuarioService.findAll()) ;
     }
 
     @PostMapping
@@ -33,6 +32,19 @@ public class UsuarioController {
     public UsuarioResponse save(@RequestBody UsuarioRequest usuarioRequest){
         Usuario usuario = usuarioService.save(mapper.usuarioRequestToUsuario(usuarioRequest));
         return mapper.usuarioToUsuarioResponse(usuario);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteUsuario(@PathVariable long id){
+        usuarioService.deleteUsuario(id);
+    }
+
+    @PutMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public UsuarioResponse updateUsuario(@RequestBody UsuarioRequest usuarioRequest, @PathVariable long id){
+        Usuario usuarioUpdate = usuarioService.updateUsuario(mapper.usuarioRequestToUsuario(usuarioRequest), id);
+        return mapper.usuarioToUsuarioResponse(usuarioUpdate);
     }
 
 }
