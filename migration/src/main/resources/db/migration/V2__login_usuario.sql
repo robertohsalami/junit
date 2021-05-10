@@ -4,6 +4,8 @@ CREATE TABLE login_usuario (
 	password varchar(255) NOT NULL,
 	name varchar(255) NOT NULL,
 	admin BOOLEAN,
+	created_At timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	updated_At timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 	CONSTRAINT loginusuario_pkey PRIMARY KEY (id)
 );
 
