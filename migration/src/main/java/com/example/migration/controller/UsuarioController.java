@@ -8,13 +8,12 @@ import com.example.migration.service.UsuarioService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("usuario")
+@RequestMapping("v1")
 @Slf4j
 public class UsuarioController {
 
@@ -24,7 +23,7 @@ public class UsuarioController {
     @Autowired
     private UsuarioMapper mapper;
 
-    @GetMapping
+    @GetMapping(path = "protected/usuario")
     @ResponseStatus(HttpStatus.OK)
     public List<UsuarioResponse> listAll(){
         List<UsuarioResponse> usuarioResponses = mapper.usuarioToUsuarioResponse(usuarioService.findAll());
@@ -32,7 +31,7 @@ public class UsuarioController {
         return  usuarioResponses;
     }
 
-    @PostMapping
+    @PostMapping(path = "admin/usuario")
     @ResponseStatus(HttpStatus.CREATED)
     public UsuarioResponse save(@RequestBody UsuarioRequest usuarioRequest){
         Usuario usuario = usuarioService.save(mapper.usuarioRequestToUsuario(usuarioRequest));
@@ -41,15 +40,14 @@ public class UsuarioController {
         return usuarioResponse;
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping(path = "admin/usuario/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void deleteUsuario(@PathVariable long id){
         usuarioService.deleteUsuario(id);
         log.info("Usuario id: {} removido da base de dados com sucesso!", id);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping(path = "admin/usuario/{id}")
     @ResponseStatus(HttpStatus.OK)
     public UsuarioResponse updateUsuario(@RequestBody UsuarioRequest usuarioRequest, @PathVariable long id){
         Usuario usuarioUpdate = usuarioService.updateUsuario(mapper.usuarioRequestToUsuario(usuarioRequest), id);
